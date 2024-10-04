@@ -1,0 +1,112 @@
+{
+    // Tema e ícones
+    // Configura o tema de cores e o tema dos ícones do editor
+    "workbench.colorTheme": "Min Dark",
+    "workbench.iconTheme": "symbols",
+
+    // Configurações de fonte e estilo do editor
+    // Define a família, tamanho da fonte, altura da linha e habilita ligaduras
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "editor.fontLigatures": true,
+
+    // Regras visuais no editor
+    // Adiciona linhas guia verticais para facilitar a leitura do código
+    "editor.rulers": [
+        80,
+        120
+    ],
+
+    // Configurações da interface de início e exibição de arquivos
+    // Define a página de início e o formato dos rótulos dos arquivos abertos
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.labelFormat": "short",
+    "workbench.editor.empty.hint": "hidden",
+
+    // Destaque e navegação no código
+    // Configura o destaque das linhas e desativa o recurso de "breadcrumbs"
+    "editor.renderLineHighlight": "gutter",
+    "breadcrumbs.enabled": false,
+
+    // Minimapa e barras de rolagem no editor
+    // Ativa o minimapa, oculta as barras de rolagem vertical e horizontal
+    "editor.minimap.enabled": true,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+
+    // Barra lateral e status
+    // Define a posição da barra lateral e oculta a barra de status
+    "workbench.activityBar.location": "default",
+    "workbench.statusBar.visible": false,
+
+    // Barra de menu
+    // Alterna a visibilidade da barra de menu
+    "window.menuBarVisibility": "toggle",
+
+    // Associações de arquivos
+    // Define como o VSCode deve interpretar certos tipos de arquivos
+    "files.associations": {
+        ".env.*": "dotenv",
+        ".prettierrc": "json",
+        "*.css": "css",
+        ".dev.vars": "dotenv"
+    },
+
+    // Sugestões de código
+    // Define que a primeira sugestão sempre será selecionada
+    "editor.suggestSelection": "first",
+
+    // Configurações do Emmet
+    // Permite que Emmet seja usado com JavaScript e JSX
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+
+    // Exclusão de arquivos no Explorer
+    // Especifica quais arquivos e pastas serão ocultados no Explorer
+    "files.exclude": {
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/.git": true,
+    "**/.vscode": true,
+    "**/node_modules": true
+    },
+
+    // Controle da indentação de arquivos e pastas na barra lateral
+    "workbench.tree.indent": 15, // Valor padrão é 20, ajuste conforme preferir
+
+    // Usar espaços ou tabs para indentação
+    "editor.insertSpaces": false, // true para espaços, false para tabs
+
+    // Número de espaços por indentação (quando usando espaços)
+    "editor.tabSize": 4, // Ajuste o valor conforme sua preferência
+
+    // Detectar automaticamente se o arquivo está usando tabs ou espaços
+    "editor.detectIndentation": true,
+
+    // Outras configurações do editor
+    // Oculta o cursor na régua de visão geral e usa a barra de título nativa
+    "editor.hideCursorInOverviewRuler": true,
+    "window.titleBarStyle": "native",
+
+    // Configurações de agrupamento de arquivos no Explorer
+    // Habilita o agrupamento de arquivos aninhados
+    "explorer.fileNesting.enabled": true,
+
+    // Desativa o controle de layout do Workbench
+    "workbench.layoutControl.enabled": false,
+
+    // Explorador de pastas
+    // Desativa a compactação de pastas no explorador
+    "explorer.compactFolders": false,
+
+    // Destaque semântico
+    // Desativa o destaque semântico no código
+    "editor.semanticHighlighting.enabled": false
+}
